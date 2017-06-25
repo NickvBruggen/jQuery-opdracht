@@ -8,24 +8,25 @@
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script src="jquery-3.2.1.js"></script>
+
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!--index-->
-<div data-role="page" id="index" style="background:black; color:white;">
+<div data-role="page" id="home" style="background:black; color:white;">
 
         <div data-role="header" style="background:#595959; color:white;">
             <h1>BottleLeaves</h1>
         </div>
 
+    <div data-role="main" class="ui-content">
         <div data-role="collapsible">
             <h1>Menu</h1>
 
-            <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
-            <a href="#verzamel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <a href="#bestel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
             <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
             <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
         </div>
@@ -33,13 +34,14 @@
     <p>BottleLeaves is een bedrijf gespecialiseerd in flesjes water met een leuke blaadjes print!</p>
     <p>De eigenaren van BottleLeaves zijn Nick van Bruggen en Maik Sportel. Het onstond allemaal toen beide een naam moesten verzinnen voor hun project
             Nick zag een flesje water staan en zag blaadjes buiten. Zo ontstond de naam BottleLeaves</p>
+    </div>
 
-    <!--css gebeuren dat ie onderaan float-->
     <div data-role="footer">
         <h3>Copyright by Nick van Bruggen and <br> Maik Sportel</h3>
+    </div>
 </div>
 <!--verzamel-->
-<div data-role="page" id="verzamel" style="background:black; color:white;">
+<div data-role="page" id="bestel" style="background:black; color:white;">
 
     <div data-role="header" style="background:#595959; color:white;">
         <h1>BottleLeaves</h1>
@@ -48,16 +50,21 @@
     <div data-role="collapsible">
         <h1>Menu</h1>
 
-        <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
-        <a href="#verzamel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
+        <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+        <a href="#bestel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
         <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
         <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>verzamel</p>
     </div>
 
     <div data-role="footer">
         <h3>Copyright by Nick van Bruggen and <br> Maik Sportel</h3>
     </div>
 </div>
+
 <!--agenda-->
 <div data-role="page" id="agenda" style="background:black; color:white;">
 
@@ -65,19 +72,24 @@
         <h1>BottleLeaves</h1>
     </div>
 
-    <div data-role="collapsible">
-        <h1>Menu</h1>
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsible">
+            <h1>Menu</h1>
 
-        <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
-        <a href="#verzamel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
-        <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
-        <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <a href="#bestel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
+            <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
+            <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
+        </div>
+
+        <p>AGENDA</p>
     </div>
 
     <div data-role="footer">
         <h3>Copyright by Nick van Bruggen and <br> Maik Sportel</h3>
     </div>
 </div>
+
 <!--locatie-->
 <div data-role="page" id="locatie" style="background:black; color:white;">
 
@@ -88,10 +100,14 @@
     <div data-role="collapsible">
         <h1>Menu</h1>
 
-        <a href="#index" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
-        <a href="#verzamel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
+        <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+        <a href="#bestel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
         <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
         <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+    <p>locatie</p>
     </div>
 
     <div data-role="footer">
