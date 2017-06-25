@@ -1,0 +1,105 @@
+<!--verzamel-->
+<div data-role="page" id="bestel" style="background:black; color:white;">
+
+    <div data-role="header" style="background:#595959; color:white;">
+        <h1>BottleLeaves</h1>
+    </div>
+
+    <div data-role="collapsible">
+        <h1>Menu</h1>
+
+        <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+        <a href="#bestel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
+        <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
+        <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>verzamel</p>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <a href="#myPopup" data-rel="popup"><img src="img/bottle1.png" style="width: 50%; margin-left: 20%"></a>
+        <div data-role="popup" id="myPopup">
+            <p><b>Bottle 1</b><br>
+            Een mooi flesje met een print van de Deense eik.<br>
+            Dit speciale blad is zo verwerkt dat de<br>
+                structuurvan het blad er nog mooi in te zien is. Ook zit het
+            takje nog aan de<br>
+                blaadjes wat het extra speciaal maakt!<br>
+            In dit flesje zit een speciaal drankje gemaakt
+            met de blaadjes.<br><br>
+                Bestel nu deze BottleLeaves exclusive voor slechts 5,99,-
+                en ontvang een tegoedbon van 0,99,- voor je volgende aankoop!
+            </p>
+            <div data-role="main" class="ui-content">
+                <input type="button" value="Bestel nu!">
+            </div>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="#myPopup1" data-rel="popup"><img src="img/bottle2.png" style="width: 50%; margin-left: 20%"></a>
+
+        <div data-role="popup" id="myPopup1">
+            <p><b>Bottle 2</b><br>
+                Dit flesje heeft de print van de Franse eucalyptus.<br>
+                Dit is een zeer zeldzaam blaadje maar natuurlijk hebben
+                wij het voor elkaar gekregen om zeop een flesje te printen.<br>
+                Door gebruik te maken van speciale technieken hebben wij de
+                blaadjes naar onze fabriek weten te krijgen waar ze in de flesjes
+                verwerkt zijn. Ookk in dit flesje is gebruik gemaakt van de echte blaadjes.
+                Hierdoor is ieder flesje uniek en zult u dus niet 2 exact dezelfde flesjes tegenkomen.<br><br>
+                Onder de indruk geraakt? Speciaal voor u zijn deze flesjes afgeprijst van 20,- naar maar liefst
+                5,-!<br>
+                Waar wacht u nog op? Bestel voor de voorraad op is van OP=OP!
+            <div data-role="main" class="ui-content">
+                <input type="button" value="Bestel nu!">
+            </div>
+            </p>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="#myPopup2" data-rel="popup"><img src="img/bottle3.png" style="width: 50%; margin-left: 20%"></a>
+
+        <div data-role="popup" id="myPopup2">
+            <p><b>Bottle 3</b><br>
+                <b><i>SPECIAAL VOOR DEZE WEEK:</i></b><br>
+            Deze aanbieding bevat een flesje met de blaadjes van de Australische den.<br>
+            Deze boom groeit in het noord oosten van Australië en word door bepaalde mensen gezien als een speciale boom.
+            Helaas zijn er steeds minder van deze bomen over door de ontbossing in het gebied.<br>
+            Maar wij zouden BottleLeaves natuurlijk niet zijn als wij niet nog een flinke voorraad van de blaadjes hierheen
+            konden krijgen. Dus speciaal voor deze week:
+            Een uniek flesje met de blaadjes van deze speciale boom!<br> Van elk bestelde flesje gaat 25% van de opbrengst
+            naar een doel wat de kap van deze bomen tegen gaat.<br>
+            Bestel dit flesje nu voor 17,88,- waarvan 4,47,- naar het goede doel gaat.
+            <div data-role="main" class="ui-content">
+                <input type="button" value="Bestel nu!">
+            </div>
+            </p>
+        </div>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="#myPopup3" data-rel="popup"><img src="img/bottle4.png" style="width: 50%; margin-left: 20%"></a>
+
+        <div data-role="popup" id="myPopup3">
+            <p><b>Bottle 4</b><br>
+            Dit flesje bevat de prachtige print van de Canadese Baobab (apenbroodboom).<br>
+            Dit blad is met de uiterste zorgvuldigheid in het flesje gesmolten waardoor het lijkt alsof
+            het blad er altijd al heeft gezeten.
+            Verder gebruiken wij voor elk flesje andere echte bladeren waardoor ieder flesje uniek is.
+            De bladeren vergaan niet doordat ze in het flesje zijn gesmolten. Hierdoor kunt u het flesje
+            net zo lang bewaren als u wil zonder dat het blad er minder uit gaat zien.<br>
+            Bestel dit flesje nu voor een bedrag van 12,99,- per stuk.
+
+            <div data-role="main" class="ui-content">
+                <input type="button" value="Bestel nu!">
+            </div>
+            </p>
+        </div>
+    </div>
+
+
+    <div data-role="footer">
+        <h3>Copyright by Nick van Bruggen and <br> Maik Sportel</h3>
+    </div>
+</div>
