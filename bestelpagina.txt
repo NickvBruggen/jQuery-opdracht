@@ -1,0 +1,36 @@
+<!--Bestel pagina-->
+<div data-role="page" id="bestel" style="background:black; color:white;">
+
+    <div data-role="header" style="background:#595959; color:white;">
+        <h1>BottleLeaves</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsible">
+            <h1>Menu</h1>
+
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <a href="#bestel" class="ui-btn ui-icon-navigation ui-btn-icon-left">Verzamel</a>
+            <a href="#agenda" class="ui-btn ui-icon-calendar ui-btn-icon-left">Agenda</a>
+            <a href="#locatie" class="ui-btn ui-icon-info ui-btn-icon-left">Locatie</a>
+        </div>
+
+        <form>
+            <input type="text" name="name" placeholder="Naam">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="text" name="telefoon" placeholder="Telefoonnummer">
+            <input type="text" name="Adres" placeholder="Adres">
+            <input type="text" name="postcode" placeholder="Postcode">
+            <input type="text" name="woonplaats" placeholder="Woonplaats">
+            <input type="number" name="aantal" placeholder="Aantal">
+        </form>
+        <div data-role="main" class="ui-content">
+            <input type="button" value="Bestellen">
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h3>Copyright by Nick van Bruggen and <br> Maik Sportel</h3>
+    </div>
+</div>
